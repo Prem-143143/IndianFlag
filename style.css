@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.first{
+    height: 200px;
+    width: 900px;
+    background-color: #FF671F;
+}
+
+.second{
+    height: 235px;
+    width: 900px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+.second > div{
+    position: absolute;
+    top: 8px;
+    left: 330px;
+}
+.third{
+    height: 200px;
+    width: 900px;
+    background-color: #06038D;
+}
